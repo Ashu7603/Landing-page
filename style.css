@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------- MY CODE -----------------------------------------------------*/
+
+body{
+  /* Structure */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  /* Font */
+  font-family: "Roboto", serif;
+}
+
+.header{
+  /* BG colour */
+  background-color: #1F2937;
+  /* Structure */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 175px;
+}
+
+.logo{/*headline*/
+  padding: 10px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.links ul{/*list*/
+  padding: 15px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  gap: 20px;
+}
+
+a{ /*anchor tag*/
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+button{
+  background-color: #3882f6;
+  color: whitesmoke;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 10px;
+  margin: 5px 0;
+}
+
+.C1{
+  background-color: #1F2937;
+  display: flex;
+  justify-content:  space-around;
+  align-items: center;
+  height: 300px;
+  padding: 50px; 
+}
+
+.about{
+  width: 400px;
+  padding: 20px;
+  text-align: start;
+  text-wrap: wrap;
+  gap: 20px;
+}
+
+.C1 .main{
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+#sub{
+  color: whitesmoke;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  background-color: grey;
+  color: #e5e7e8;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  text-align: center;
+  color: white;
+  height: 50px;
+}
+
+.C2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+h6{
+  margin: 20px; 
+  font-weight: 900;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.boxer{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.B{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  width: 150px;
+  gap: 10px;
+
+}
+
+.b{
+  width: 100%;
+  height: 100%;
+  border: 5px solid lightblue;
+  border-radius: 5px;
+  
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.C3{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7e8;
+  padding: 50px;
+}
+
+.para{
+  display: flex;
+  /* text-align: center; */
+  padding: 30px 10px;
+  width: 750px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#author{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: end;
+  height: 20px;
+  font-weight: bold;
+}
+
+.C4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+}
+.blueballs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  border: 2px solid #3882f6;
+  border-radius: 5px;
+  padding: 50px 300px;
+  gap: 50px;
+}
+#signup{
+  border: 2px solid #e5e7e8;
+}
+#Call{
+  color: #e5e7e8;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+#sig{
+  color: #e5e7e8;
+  font-size: 16px;
+  font-weight: 100;
+}
